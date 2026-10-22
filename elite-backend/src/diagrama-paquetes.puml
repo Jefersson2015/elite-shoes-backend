@@ -1,0 +1,10 @@
+@startuml
+
+component "elite-frontend" as Front
+component "elite-backend" as Back
+database "MySQL" as DB
+
+Front --> Back
+Back --> DB
+
+@enduml
